@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #78C6FF;
+  color: #444444;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+}
+
+input, button, select {
+  font-size: 1.6rem;
+}
+
+.public-DraftEditor-content h1 {
+  font-size: 4rem !important;
+}
+
+.public-DraftEditor-content h2 {
+  font-size: 3.5rem !important;
+}
+
+.public-DraftEditor-content h3 {
+  font-size: 3.2rem !important;
+}
+
+.public-DraftEditor-content h4 {
+  font-size: 3rem !important;
+}
+
+.public-DraftEditor-content h5 {
+  font-size: 2.7rem !important;
+}
+
+.public-DraftEditor-content h6 {
+  font-size: 2.5rem !important;
+}
+
+
+.title-bar {
+  background-color: white;
+  color: #444444;
+  width: 100%;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto !important;
+}
+
+.title-bar__links {
+  width: 20%;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-bar__links a {
+  margin-right: 10px;
+}
+
+.medium-editor {
+  padding: 100px !important;
+}
+
+.md-RichEditor-root {
+  padding: 15px 50px !important;
+  border-radius: 15px;
+}
+
+.home-body {
+  padding: 100px;
+}
+
+.home-body h1, .home-body h4 {
+  text-align: center;
+  font-size: 5rem;
+  padding-bottom: 50px;
+  color:#4183c4;
+}
+
+.home-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.home-box img {
+  margin: auto;
+}
+
+.home-box {
+  background-color: white;
+  text-align: center;
+  width: 40%;
+  padding: 40px  20px;
+  border: 1px solid #f2f2f2;
+  border-radius: 15px;
+}
+
+.home-box h2 {
+  margin-top: 40px;
+  font-size: 3rem;
+}
+
+.home-box a {
+  padding: 10px 30px;
+  background-color: #FFC95C;
+  border-radius: 15px;
+  color: white;
+}
+
+.home-box p {
+  font-size: 2rem;
+  padding-bottom: 20px;
+}
+
+#darksideofthemoon {
+  margin: 30px auto;
+  width: 90%;
+  border-radius: 20px;
+  padding: 50px;
+  background-color: white;
+  display: none;
+  text-align: center;
+}
+
+#wrapper-image {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#texte-image {
+  width: 40%;
+}
+
+#imageDiv {
+  width: 40%;
+}
+
+#inputImage {
+  padding: 5px;
+  min-height: 30px;
+  border-radius: 10px;
+  width: 80%;
+}
+
+#analyzer {
+  padding: 10px 30px;
+  background-color: #FFC95C;
+  border-radius: 15px;
+  color: white;
+  border: none;
+}
+
+#wrapper-text * {
+  margin-top: 20px;
+}
+
+#wrapper-text h1 {
+  font-size: 3rem;
+}
