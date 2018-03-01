@@ -13,9 +13,9 @@ import {
 class App extends Component {
   render() {
     return (
-      <Router basename="/app-ubscriber">
+      <Router basename="/app-upscriber">
        <div className="App">
-        <ToolBar title="rainbow" />
+        <ToolBar title="main" />
         <Route exact path="/" component={Home}/>
         <Route path="/editor" component={Medium}/>
         <Route path="/upload" component={Upload}/>
