@@ -16,7 +16,7 @@ class App extends Component {
       <Router>
       <div className="App">
         <ToolBar title="rainbow" />
-        <Route exact path="/" component={Home}/>
+        <Route exact path="/home" component={Home}/>
         <Route path="/editor" component={Medium}/>
         <Route path="/upload" component={Upload}/>
       </div>

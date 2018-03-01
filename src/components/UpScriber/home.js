@@ -11,14 +11,14 @@ export default class Home extends React.Component {
         <div className="home-wrapper">
 
           <div className="home-box">
-            <Image src="./pencil.png" size="tiny"/>
+            <Image src="pencil.png" size="tiny"/>
             <h2>Edit</h2>
             <p>Start a document from scratch or copy paste it from the web.</p>
             <Link to="/editor">Editor</Link>
           </div>
 
           <div className="home-box">
-            <Image src="./inbox.png" size="tiny"/>
+            <Image src="inbox.png" size="tiny"/>
             <h2>Upload</h2>
             <p>Convert your images to HTML document in one click.</p>
             <Link to="/upload">Upload</Link>
