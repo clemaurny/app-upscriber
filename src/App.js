@@ -14,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <Router basename="/app-subscriber">
-      <div className="App">
+       <div className="App">
         <ToolBar title="rainbow" />
         <Route exact path="/" component={Home}/>
         <Route path="/editor" component={Medium}/>
