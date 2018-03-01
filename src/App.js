@@ -13,7 +13,7 @@ import {
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename="/app-subscriber">
       <div className="App">
         <ToolBar title="rainbow" />
         <Route exact path="/" component={Home}/>
