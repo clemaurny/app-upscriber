@@ -1,6 +1,6 @@
 {
   "name": "app-upscriber",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "private": true,
   "homepage": "https://clemaurny.github.io/app-upscriber",
   "dependencies": {
