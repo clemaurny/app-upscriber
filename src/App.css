@@ -50,6 +50,13 @@ input, button, select {
   border-bottom: 1px solid #f2f2f2;
 }
 
+#wrapper-image {
+  background-color: white;
+  color: #444444;
+  width: 100%;
+  border: 1px solid #f2f2f2;
+}
+
 .wrapper {
     display: flex;
     align-items: center;
@@ -141,10 +148,56 @@ input, button, select {
   justify-content: space-around;
 }
 
-#texte-image {
-  width: 40%;
+#handwriting{
+  font-size: 2.0em;
+  /* width: 30px; */
+  /* height: 40px; */
+  -webkit-appearance: none;
+  background-color: #fafafa;
+  border: 1px solid #cacece;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+  padding: 9px;
+  border-radius: 3px;
+  display: inline-block;
+  position: relative;
+  margin-left: 10px;
+
+}
+input#handwriting:checked {
+  background-color: #e9ecee;
+  border: 1px solid #adb8c0;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+  color: #48494a;
 }
 
+input#handwriting:checked:after {
+  content: '\2714';
+  font-size: 14px;
+  position: absolute;
+  top: 0px;
+  left: 3px;
+  color: #48494a;
+}
+
+#handwritingBox {
+  font-size: 1.1em;
+  margin: 10px;
+}
+#texte-image {
+  width: 50%;
+}
+
+#texte-image article {
+
+font-size:1.6em;
+margin:15px;
+line-height: 1em;
+}
+#wrapper-text {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
 #imageDiv {
   width: 40%;
 }
