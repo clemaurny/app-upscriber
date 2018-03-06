@@ -8,7 +8,7 @@ export default class ToolBar extends React.Component {
     return (
       <div className="title-bar">
         <div className="wrapper">
-          <div><Link to="/"><Image src="/app-subscriber/rainbow2.png" size="tiny"/></Link></div>
+          <div><Link to="/"><Image src="/app-subscriber/blob/gh-pages/rainbow2.png" size="tiny"/></Link></div>
           <div className="title-bar__links">
             <Link to="/editor">Editor</Link>
             <Link to="/upload">Upload</Link>
