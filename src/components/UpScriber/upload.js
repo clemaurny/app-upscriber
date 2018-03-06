@@ -58,16 +58,12 @@ export default class Upload extends React.Component {
       }).then(function(){
 
           const documentView =
-          textContent.forEach(function(nodes,i){
-           
-            textContent.map((sentences, index) =>
+          textContent.map((sentences, index) =>
               <article>
-                {sentences}
+                {sentences.words}
               </article>
-            
+
           )
-          })
-          
         
           console.log(textContent);
 
