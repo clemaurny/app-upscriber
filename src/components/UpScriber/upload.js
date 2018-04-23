@@ -83,7 +83,7 @@ export default class Upload extends React.Component {
         Enter the URL to an image of a natural or artificial landmark, then click the <strong>Analyze image</strong> button.
       </p>
 
-      <input type="text" name="inputImage" id="inputImage" value="https://80d2853cc4def76b377d-54344bc01a8b066c84096a8e7a3499ac.ssl.cf1.rackcdn.com/original/700699.jpg" />
+      <input type="text" name="inputImage" id="inputImage" placeholder="https://80d2853cc4def76b377d-54344bc01a8b066c84096a8e7a3499ac.ssl.cf1.rackcdn.com/original/700699.jpg" />
       <br/>
       <section id="handwritingBox">
         <label for="handwriting">hand writing</label>
