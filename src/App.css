@@ -43,7 +43,7 @@ input, button, select {
 }
 
 /* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 320px) {
+@media only screen and (max-width : 480px) {
   /* Styles */
     .home-wrapper {
       width: 100%;
@@ -62,7 +62,7 @@ input, button, select {
       border-radius: 15px;
       margin-bottom: 20px;
     }
-    .wrapper {
+    .title-bar  {
       min-height: 54px;
     }
   }
