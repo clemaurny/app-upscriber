@@ -42,6 +42,31 @@ input, button, select {
   font-size: 2.5rem !important;
 }
 
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+  /* Styles */
+    .home-wrapper {
+      width: 100%;
+      display: flex;
+      flex-flow: column;
+    }
+    .home-body {
+      padding: 10px;
+    }
+    .home-box{
+      background-color: #fff;
+      text-align: center;
+      width: 100%;
+      padding: 40px 20px;
+      border: 1px solid #f2f2f2;
+      border-radius: 15px;
+      margin-bottom: 20px;
+    }
+    .wrapper {
+      min-height: 54px;
+    }
+  }
+
 
 .title-bar {
   background-color: white;
