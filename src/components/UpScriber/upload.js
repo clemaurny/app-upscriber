@@ -40,35 +40,45 @@ export default class Upload extends React.Component {
          );
       let rows = pages.map((pages, index) =>
               pages.lines
-            );  
+            ); 
       let words = rows.forEach(function(row, index) { 
-        let sentence = {"words":[]} 
+        let sentences = {"words":[]} 
               row.forEach(function(lineRow, i) {
                   let words = ""
                   lineRow.words.map(function(word,i) {
                     words+=word.text+ " "; 
                     })
-                    sentence["words"].push(words); 
+                    sentences["words"].push(words); 
                   }) 
-                  console.log(sentence);
-                  textContent.push(sentence);
+                  textContent.push(sentences);
 
               })
           
       }).then(function(){
+        let finalStringMessage = [];
 
-          const documentView =
+        let textContentLength = textContent.length;
+        for(let i=0; i<textContentLength; i++){
+          let wordsArray = textContent[i].words;
+          let articleName = wordsArray.map((sentences, index) =>
+                    <desc-sentence>{sentences}</desc-sentence>
+
+            );
+            finalStringMessage.push(<article>{articleName}</article>)
+
+        }
+         /* const documentView =
           textContent.map((sentences, index) =>
               <article>
                 {sentences.words}
               </article>
 
-          )
+          )*/
         
-          console.log(textContent);
+          console.log(finalStringMessage);
 
           ReactDOM.render(
-            <section>{documentView}</section>,
+            <section>{finalStringMessage}</section>,
             document.getElementById('texte-image')
           );
       });
